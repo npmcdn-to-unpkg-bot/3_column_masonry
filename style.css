@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron {
+	background-color: white;
+	border-top: 5px solid black;
+	height: 225px;
+	
+}
+
+#logo {
+	text-decoration: none;
+	color: 	black;
+	letter-spacing: 0.125em;
+}
+
+#logo:hover {
+	color: #A52A2A;
+}
+
+.navbar {
+	background-color: white;
+	border-radius: 0;
+	border-right: none;
+	border-left: none;
+	border-bottom: 5px solid #F5F5F5;
+	text-align: left;
+
+}
+.nav li a {
+	color: black !important;
+	border-top: 3px solid white;
+	border-right: 1px solid #F5F5F5;
+}
+
+.nav li:first-child {
+	border-left: 1px solid #F5F5F5;
+}
+
+.nav li a:hover {
+	border-top: 3px solid black;
+	color: #A52A2A  !important;
+}
+
+.nav li .selected {
+	border-top: 3px solid black!important;
+	color: #A52A2A!important ;
+}
+/*body {
+	background:  url(images/escheresque.png);
+}*/
+.backgroundfix1 {
+	padding-top: 50px;
+	background:  url(images/escheresque.png);
+}
+.grid-item {
+	background: white;	
+	margin-bottom: 20px;
+	margin-right: 50px;
+	width: 330px;
+	/*padding: 35px;*/
+	border-radius: 5px;
+	padding-bottom: 0;
+	float: left;
+}
+.intemheader {
+	padding-left: 35px;
+}
+.grid-item img {
+	padding-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 35px;
+}
+
+.textarea {
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-top: 25px;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 10px;
+}
+
+.itemfooter {
+	padding-top: 3px;
+	height: 100%;
+	background-color: #F5F5F5;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+}
+.itemfooter a {
+	text-decoration: none;
+	color: black;
+}
+.itemfooter a:hover {
+	color: #A52A2A;
+}
+.intemheader a {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+}
+.intemheader a:hover {
+	color: #A52A2A;
+}
+.textarea a{
+	color: #A52A2A;
+}
+.backgroundfix {
+	background: url(images/Grey_Background.jpg);
+	border-top: 3px solid black;
+	padding-top: 50px;
+	border-bottom: 3px solid black;;
+}
+.grid-item-alt {
+	width: 300px;
+	float: left;
+	background-color: black;
+	margin-right: 80px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.grid-item-alt a {
+	display: block;
+	color: grey;
+	text-decoration: none;
+}
+
+.grid-item-alt a:hover {
+	color: #A52A2A;
+}
+.footer {
+	background-color: #696969;
+	color: #E6E6FA;
+	text-align: center;
+	padding: 20px;
+}
